@@ -2,6 +2,7 @@
 #Input parameter: target function
 #Output : standard out C-style code of each function
 #Goes through given binary, and finds calls to that function, outputs C-style code of calling function
+#Usage: .\analyzeHeadless <tmpDir> <tmpProject> -deleteProject -import <targetbinary> -postScript print_decomp.py <target_function> -scriptPath <pathToScriptDir>
 #@category RE
 #@author coldhardcache
 
